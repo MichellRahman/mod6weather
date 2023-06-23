@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: lightslategray;
+}
+#forecast {
+    display: flex;
+}
+#forecast div {
+    margin-right: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#container {
+    display: flex;
+}
+#container div {
+    margin-right: 50px;
+
+}
+#today {
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+#fiveDay {
+    display: none;
+}
+#cities {
+    color: white;
+}
+#cities p:hover { 
+    color: blue;
+    cursor: pointer;
+}
+#today {
+    background-color: lightblue;
+    border-radius: 5px;
+    color: blue;
+}
+#forecast div {
+    background-color: lightblue;
+    border-radius: 5px;
+    color: blue;
+}
+h1 {
+    color: white;
+}
+.date {
+    font-weight: bold;
+}
+input {
+    margin-bottom: 10px;
+}
+button { 
+    
+    color: blue;
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#fiveDay {
+    color: white;
+}
